@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+        "react-app",
+        "standard",
+        "standard-react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react",
+        "import",
+        "promise",
+        "node",
+        "react-hooks"
+    ],
+    "ignorePatterns": [
+        "node_modules/",
+        "dist/",
+        "build/",
+        "package.json",
+        "package-lock.json",
+        "credentials.json"
+    ],
+    "rules": {
+        "react/no-deprecated": "off",
+        "react-hooks/rules-of-hooks": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "react/prop-types": "off",
+        "react/jsx-no-bind": "off",
+        "react/jsx-handler-names": "off",
+        "indent": [
+            "error",
+            2
+        ],
+        "react/jsx-indent": [
+            "error",
+            2
+        ],
+        "react/jsx-indent-props": [
+            "error",
+            2
+        ]
+    }
+}

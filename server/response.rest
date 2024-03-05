@@ -1,0 +1,6 @@
+POST http://localhost:3002/api/
+Content-Type: application/json
+
+{
+    "username": "Guest User"
+}
