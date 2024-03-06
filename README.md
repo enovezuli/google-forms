@@ -87,8 +87,8 @@ etc.
 
 Reach out to me at one of the following places:
 
-- Website at [Eno Vezuli](https://about.me/vezuli)
-- Github at **[enovezuli]https://github.com/enovezuli/**
+- Website at **[Eno Vezuli](https://about.me/vezuli)**
+- Github at **[enovezuli](https://github.com/enovezuli)**
 - E-Mail: **vezulieno@gmail.com**
 
 
