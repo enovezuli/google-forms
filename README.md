@@ -74,7 +74,7 @@ etc.
 
 ## Screenshots
 
-![Homepage] (https://github.com/enovezuli/google-forms/blob/main/screenshots/homescreen.png)
+![Homepage](https://github.com/enovezuli/google-forms/blob/main/screenshots/homescreen.png)
 
 ![Basic question perview](https://github.com/enovezuli/google-forms/blob/main/screenshots/basic-user-form.png)
 
