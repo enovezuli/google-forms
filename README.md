@@ -74,6 +74,8 @@ etc.
 
 ## Screenshots
 
+![Homepage] (https://github.com/enovezuli/google-forms/blob/main/screenshots/homescreen.png)
+
 ![Basic question perview](https://github.com/enovezuli/google-forms/blob/main/screenshots/basic-user-form.png)
 
 
@@ -82,8 +84,7 @@ etc.
 
 
 
-
-[See more](https://github.com/enovezuli/google-forms/tree/master/images).
+[See more](https://github.com/enovezuli/google-forms/blob/main/screenshots/).
 
 
 ## Author

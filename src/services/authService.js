@@ -2,9 +2,9 @@ import axios from 'axios'
 import jwt from 'jsonwebtoken'
 import jwtDecode from 'jwt-decode'
 
-// const API_URL = "http://192.168.225.23:3002/api/user/"
-const API_URL = 'http://localhost:3002/api/user/'
-const tokenShit = 'ced10b32b163cfc13a7c4a82c847098a30c8f03da1e722601f83832dd7deb7e310eedf4fc02197ef13dc721af88929f217ee1237e676680e23b8843c79d00307'
+import config from '../config'
+const { BASE_URL, REACT_APP_SECRET_TOKEN } = config.development
+const API_URL = BASE_URL || 'http://192.168.225.23:3002/api/user/'
 
 export default {
 
@@ -60,7 +60,7 @@ export default {
       email: 'coolboy69@gg.com'
     }
 
-    const accessToken = jwt.sign(userData, tokenShit)
+    const accessToken = jwt.sign(userData, REACT_APP_SECRET_TOKEN)
     localStorage.setItem('userTicket', JSON.stringify(accessToken))
     return accessToken
   },

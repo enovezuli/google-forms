@@ -11,7 +11,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import ViewListIcon from '@material-ui/icons/ViewList'
 import GoogleButton from 'react-google-button'
 import Avatar from '@material-ui/core/Avatar'
-import process from 'process'
+import config from '../config'
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -28,8 +28,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
-console.log(CLIENT_ID)
+const CLIENT_ID = config.development.CLIENT_ID
 function Login (props) {
   const classes = useStyles()
   const history = useHistory()
