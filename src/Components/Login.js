@@ -99,7 +99,7 @@ function Login (props) {
         <br />
         <br />
 
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           {isLogined
             ? ''
             : <GoogleLogin clientId={CLIENT_ID} buttonText='Login with Google' onSuccess={loginGoogle} onFailure={handleLoginFailure} cookiePolicy='single_host_origin' render={renderProps => (<GoogleButton onClick={renderProps.onClick} disabled={renderProps.disabled} />)} />}

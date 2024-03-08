@@ -257,7 +257,7 @@ function QuestionsTab (props) {
                     elevation={1} style={{ width: '100%' }}
                   >
                     {!questions[i].open ? (
-                      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '3px', paddingTop: '15px', paddingBottom: '15px' }}>
+                      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: '3px', paddingTop: '15px', paddingBottom: '15px' }}>
                         {/* <TextField id="standard-basic" label=" " value="Question" InputProps={{ disableUnderline: true }} />  */}
 
                         <Typography variant='subtitle1' style={{ marginLeft: '0px' }}>{i + 1}.  {ques.questionText}</Typography>
