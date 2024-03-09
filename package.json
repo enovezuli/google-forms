@@ -2,6 +2,9 @@
   "name": "google-forms",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -29,7 +32,8 @@
     "eject": "react-scripts eject",
     "client": "npm start",
     "server": "cd server && node index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "npm run check-node-version && concurrently \"npm run server\" \"npm run client\"",
+    "check-node-version": "node -v | grep -E '^v14\\.' && echo \"Node version is suitable for development.\" || (echo \"Your project requires Node.js version 14.x.x. Please upgrade or install Node.js 14 and try again.\" && exit 1)"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,7 +56,6 @@
     "babel-eslint": "^10.1.0",
     "concurrently": "^5.2.0",
     "dotenv": "^10.0.0",
-    "dotenv-webpack": "^7.0.0",
     "eslint": "^6.8.0",
     "eslint-config-react": "^1.1.7",
     "eslint-config-standard": "^14.1.1",
