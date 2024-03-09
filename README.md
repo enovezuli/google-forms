@@ -3,7 +3,7 @@
 <h4 align="center">A Clone of google forms in React and Nodejs.</h4>
 
 <p align="center">
-    <a href="https://github.com/enovezuli/google-forms/commits/master">
+    <a href="https://github.com/enovezuli/google-forms/commits/main">
     <img src="https://img.shields.io/badge/Last%20Commit-March-green?style=flat-square&logo=github&logoColor=white"
          alt="GitHub last commit">
     <a href="https://github.com/enovezuli/google-forms/issues">
@@ -98,7 +98,11 @@ etc.
 Reach out to me at one of the following places:
 
 - Website at **[Eno Vezuli](https://about.me/vezuli)**
-- Github at **[enovezuli](https://github.com/enovezuli)**
+
+- **[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://linkedin.com/in/enovezuli)**
+- **[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/enovezuli)**
+- **[![Twitter](http://i.imgur.com/wWzX9uB.png) Twitter](https://twitter.com/enovezuli)**
+
 - E-Mail: **vezulieno@gmail.com**
 
 
